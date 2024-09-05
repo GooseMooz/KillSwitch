@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		441076252C81554000C96481 /* AppPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 441076242C81553400C96481 /* AppPicker.swift */; };
+		441076272C81802600C96481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 441076262C81802600C96481 /* LaunchScreen.storyboard */; };
+		44C71F732C80E5CB0013F77F /* KillSwitchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C71F722C80E5CB0013F77F /* KillSwitchApp.swift */; };
+		44C71F752C80E5CB0013F77F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C71F742C80E5CB0013F77F /* ContentView.swift */; };
+		44C71F772C80E5F00013F77F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C71F762C80E5F00013F77F /* Assets.xcassets */; };
+		44C71F7A2C80E5F00013F77F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C71F792C80E5F00013F77F /* Preview Assets.xcassets */; };
+		44C71F842C80E5F00013F77F /* KillSwitchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C71F832C80E5F00013F77F /* KillSwitchTests.swift */; };
+		44C71F8E2C80E5F00013F77F /* KillSwitchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C71F8D2C80E5F00013F77F /* KillSwitchUITests.swift */; };
+		44C71F902C80E5F00013F77F /* KillSwitchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C71F8F2C80E5F00013F77F /* KillSwitchUITestsLaunchTests.swift */; };
+		44C71F9D2C81302D0013F77F /* NFCScan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C71F9C2C81302D0013F77F /* NFCScan.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44C71F802C80E5F00013F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C71F672C80E5CB0013F77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C71F6E2C80E5CB0013F77F;
+			remoteInfo = KillSwitch;
+		};
+		44C71F8A2C80E5F00013F77F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C71F672C80E5CB0013F77F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C71F6E2C80E5CB0013F77F;
+			remoteInfo = KillSwitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		441076242C81553400C96481 /* AppPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppPicker.swift; sourceTree = "<group>"; };
+		441076262C81802600C96481 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4424D1482C884DFF00A8D58C /* KillSwitch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KillSwitch.entitlements; sourceTree = "<group>"; };
+		44906B472C896D2B0027A08C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C71F6F2C80E5CB0013F77F /* KillSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KillSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C71F722C80E5CB0013F77F /* KillSwitchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchApp.swift; sourceTree = "<group>"; };
+		44C71F742C80E5CB0013F77F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44C71F762C80E5F00013F77F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C71F792C80E5F00013F77F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44C71F7F2C80E5F00013F77F /* KillSwitchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillSwitchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C71F832C80E5F00013F77F /* KillSwitchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchTests.swift; sourceTree = "<group>"; };
+		44C71F892C80E5F00013F77F /* KillSwitchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KillSwitchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C71F8D2C80E5F00013F77F /* KillSwitchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchUITests.swift; sourceTree = "<group>"; };
+		44C71F8F2C80E5F00013F77F /* KillSwitchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillSwitchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44C71F9C2C81302D0013F77F /* NFCScan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCScan.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		440701172C89C08C009A4633 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AppIcon.png,
+			);
+			target = 44C71F6E2C80E5CB0013F77F /* KillSwitch */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		441076282C81817800C96481 /* Images */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (440701172C89C08C009A4633 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = Images; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C71F6C2C80E5CB0013F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C71F7C2C80E5F00013F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C71F862C80E5F00013F77F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C71F662C80E5CB0013F77F = {
+			isa = PBXGroup;
+			children = (
+				441076282C81817800C96481 /* Images */,
+				44C71F712C80E5CB0013F77F /* KillSwitch */,
+				44C71F822C80E5F00013F77F /* KillSwitchTests */,
+				44C71F8C2C80E5F00013F77F /* KillSwitchUITests */,
+				44C71F702C80E5CB0013F77F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44C71F702C80E5CB0013F77F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C71F6F2C80E5CB0013F77F /* KillSwitch.app */,
+				44C71F7F2C80E5F00013F77F /* KillSwitchTests.xctest */,
+				44C71F892C80E5F00013F77F /* KillSwitchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C71F712C80E5CB0013F77F /* KillSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				4424D1482C884DFF00A8D58C /* KillSwitch.entitlements */,
+				441076242C81553400C96481 /* AppPicker.swift */,
+				44C71F722C80E5CB0013F77F /* KillSwitchApp.swift */,
+				44C71F742C80E5CB0013F77F /* ContentView.swift */,
+				44C71F762C80E5F00013F77F /* Assets.xcassets */,
+				44C71F782C80E5F00013F77F /* Preview Content */,
+				44C71F9C2C81302D0013F77F /* NFCScan.swift */,
+				441076262C81802600C96481 /* LaunchScreen.storyboard */,
+				44906B472C896D2B0027A08C /* Info.plist */,
+			);
+			path = KillSwitch;
+			sourceTree = "<group>";
+		};
+		44C71F782C80E5F00013F77F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44C71F792C80E5F00013F77F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44C71F822C80E5F00013F77F /* KillSwitchTests */ = {
+			isa = PBXGroup;
+			children = (
+				44C71F832C80E5F00013F77F /* KillSwitchTests.swift */,
+			);
+			path = KillSwitchTests;
+			sourceTree = "<group>";
+		};
+		44C71F8C2C80E5F00013F77F /* KillSwitchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44C71F8D2C80E5F00013F77F /* KillSwitchUITests.swift */,
+				44C71F8F2C80E5F00013F77F /* KillSwitchUITestsLaunchTests.swift */,
+			);
+			path = KillSwitchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C71F6E2C80E5CB0013F77F /* KillSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C71F932C80E5F00013F77F /* Build configuration list for PBXNativeTarget "KillSwitch" */;
+			buildPhases = (
+				44C71F6B2C80E5CB0013F77F /* Sources */,
+				44C71F6C2C80E5CB0013F77F /* Frameworks */,
+				44C71F6D2C80E5CB0013F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KillSwitch;
+			productName = KillSwitch;
+			productReference = 44C71F6F2C80E5CB0013F77F /* KillSwitch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44C71F7E2C80E5F00013F77F /* KillSwitchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C71F962C80E5F00013F77F /* Build configuration list for PBXNativeTarget "KillSwitchTests" */;
+			buildPhases = (
+				44C71F7B2C80E5F00013F77F /* Sources */,
+				44C71F7C2C80E5F00013F77F /* Frameworks */,
+				44C71F7D2C80E5F00013F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C71F812C80E5F00013F77F /* PBXTargetDependency */,
+			);
+			name = KillSwitchTests;
+			productName = KillSwitchTests;
+			productReference = 44C71F7F2C80E5F00013F77F /* KillSwitchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44C71F882C80E5F00013F77F /* KillSwitchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C71F992C80E5F00013F77F /* Build configuration list for PBXNativeTarget "KillSwitchUITests" */;
+			buildPhases = (
+				44C71F852C80E5F00013F77F /* Sources */,
+				44C71F862C80E5F00013F77F /* Frameworks */,
+				44C71F872C80E5F00013F77F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C71F8B2C80E5F00013F77F /* PBXTargetDependency */,
+			);
+			name = KillSwitchUITests;
+			productName = KillSwitchUITests;
+			productReference = 44C71F892C80E5F00013F77F /* KillSwitchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C71F672C80E5CB0013F77F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					44C71F6E2C80E5CB0013F77F = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					44C71F7E2C80E5F00013F77F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 44C71F6E2C80E5CB0013F77F;
+					};
+					44C71F882C80E5F00013F77F = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 44C71F6E2C80E5CB0013F77F;
+					};
+				};
+			};
+			buildConfigurationList = 44C71F6A2C80E5CB0013F77F /* Build configuration list for PBXProject "KillSwitch" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C71F662C80E5CB0013F77F;
+			productRefGroup = 44C71F702C80E5CB0013F77F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C71F6E2C80E5CB0013F77F /* KillSwitch */,
+				44C71F7E2C80E5F00013F77F /* KillSwitchTests */,
+				44C71F882C80E5F00013F77F /* KillSwitchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C71F6D2C80E5CB0013F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				441076272C81802600C96481 /* LaunchScreen.storyboard in Resources */,
+				44C71F7A2C80E5F00013F77F /* Preview Assets.xcassets in Resources */,
+				44C71F772C80E5F00013F77F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C71F7D2C80E5F00013F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C71F872C80E5F00013F77F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C71F6B2C80E5CB0013F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C71F9D2C81302D0013F77F /* NFCScan.swift in Sources */,
+				441076252C81554000C96481 /* AppPicker.swift in Sources */,
+				44C71F752C80E5CB0013F77F /* ContentView.swift in Sources */,
+				44C71F732C80E5CB0013F77F /* KillSwitchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C71F7B2C80E5F00013F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C71F842C80E5F00013F77F /* KillSwitchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C71F852C80E5F00013F77F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C71F902C80E5F00013F77F /* KillSwitchUITestsLaunchTests.swift in Sources */,
+				44C71F8E2C80E5F00013F77F /* KillSwitchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44C71F812C80E5F00013F77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C71F6E2C80E5CB0013F77F /* KillSwitch */;
+			targetProxy = 44C71F802C80E5F00013F77F /* PBXContainerItemProxy */;
+		};
+		44C71F8B2C80E5F00013F77F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C71F6E2C80E5CB0013F77F /* KillSwitch */;
+			targetProxy = 44C71F8A2C80E5F00013F77F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44C71F912C80E5F00013F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44C71F922C80E5F00013F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C71F942C80E5F00013F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = KillSwitch/KillSwitch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KillSwitch/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LU68WR8LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KillSwitch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KillSwitch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Scan blocking/unblocking nfc tag";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = GooseMooz.KillSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C71F952C80E5F00013F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = KillSwitch/KillSwitch.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KillSwitch/Preview Content\"";
+				DEVELOPMENT_TEAM = 7LU68WR8LH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KillSwitch/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = KillSwitch;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_NFCReaderUsageDescription = "Scan blocking/unblocking nfc tag";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = GooseMooz.KillSwitch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44C71F972C80E5F00013F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LU68WR8LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GooseMooz.KillSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KillSwitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KillSwitch";
+			};
+			name = Debug;
+		};
+		44C71F982C80E5F00013F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LU68WR8LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GooseMooz.KillSwitchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KillSwitch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KillSwitch";
+			};
+			name = Release;
+		};
+		44C71F9A2C80E5F00013F77F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LU68WR8LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GooseMooz.KillSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KillSwitch;
+			};
+			name = Debug;
+		};
+		44C71F9B2C80E5F00013F77F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7LU68WR8LH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GooseMooz.KillSwitchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KillSwitch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C71F6A2C80E5CB0013F77F /* Build configuration list for PBXProject "KillSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C71F912C80E5F00013F77F /* Debug */,
+				44C71F922C80E5F00013F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C71F932C80E5F00013F77F /* Build configuration list for PBXNativeTarget "KillSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C71F942C80E5F00013F77F /* Debug */,
+				44C71F952C80E5F00013F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C71F962C80E5F00013F77F /* Build configuration list for PBXNativeTarget "KillSwitchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C71F972C80E5F00013F77F /* Debug */,
+				44C71F982C80E5F00013F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C71F992C80E5F00013F77F /* Build configuration list for PBXNativeTarget "KillSwitchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C71F9A2C80E5F00013F77F /* Debug */,
+				44C71F9B2C80E5F00013F77F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C71F672C80E5CB0013F77F /* Project object */;
+}
