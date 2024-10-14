@@ -289,7 +289,6 @@ struct ContentView: View {
         }
         UserDefaults.standard.set(false, forKey: "blocked")
         Task {
-            print("boba")
             await blockManager.endBLockActivity()
         }
     }
